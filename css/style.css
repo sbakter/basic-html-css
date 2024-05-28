@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background: rgb(255, 255, 0);
+    background: #ffffff;
+    border: 1px solid red;
+    font-size: 2rem;
+
+}
+
+.test-em {
+    font-size: 100px;
+    border: .1em solid blue;
+    width: 10em;
+    height: 10em;
+}
+
+.external-div {
+    width: 500px;
+    height: 100px;
+    border: 2px solid #4CAF50;
+}
+
+.innernal-div {
+    width: 100vw;
+    height: 100px;
+    border: 2px solid red;
+    margin: auto;
+}
+
+/* Flex-box */
+.flex-box {
+    display: flex;
+    height: 500px;
+    background: rgb(252, 239, 136);
+    justify-content: center;
+}
+
+.flex-item {
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    border: 1px solid #4CAF50;
+    background: rebeccapurple;
+    color: #ffffff;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background: #cae8ca;
+    height: 500px;
+
+}
+
+
+.item {
+    border: 2px solid #ffffff;
+    width: 15%;
+    height: 100px;
+    text-align: center;
+    background: #4CAF50;
+}
+
+.item-one {}
+
+.box-test {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid orange;
+    margin: 0 10px;
+}
+
+.sticky-box {
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: calc(100vh - 50px);
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+.headred-item {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#item-one {
+    background: red;
+}
+
+#item-two {
+    background: yellow;
+}
+
+#item-three {
+    background: green;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+
+    border: 3px solid green;
+
+}
+
+span {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    display: inline-block;
+    background: grey;
+}
+
+
+section {
+    padding: 30px;
+}
+
+img {
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+
+textarea {
+    resize: none;
+}
+
+legend {
+    text-align: center;
+}
+
+.fa-facebook {
+    color: red;
+}
